@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+ul.lowtone.media.type.select {
+	background-color: #f9f9f9;
+	border: 1px solid #dfdfdf;
+
+	li {
+		display: block;
+		margin: 0;
+		padding: 0;
+
+		&:nth-child(even) {
+			background-color: #fcfcfc;
+		}
+
+		& + li {
+			border-top: 1px solid #dfdfdf;
+		}
+
+		a {
+			color: #21759b;
+			display: block;
+			min-height: 48px;
+			padding: 1em;
+			text-decoration: none;
+
+			&:hover {
+				color: #d54e21;
+			}
+		}
+
+		img {
+			float: left;
+		}
+
+		h3, p {
+			margin: 2px 0;
+			padding-left: 64px;
+		}
+	}
+}

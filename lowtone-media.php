@@ -22,6 +22,23 @@ namespace lowtone\media {
 	$__i = Package::init(array(
 			Package::INIT_PACKAGES => array("lowtone", "lowtone\\wp"),
 			Package::INIT_MERGED_PATH => __NAMESPACE__,
+			Package::INIT_SUCCESS => function() {
+
+				// Load text domain
+				
+				$loadTextDomain = function() {
+					if (is_textdomain_loaded("lowtone_media"))
+						return;
+
+					load_textdomain("lowtone_media", __DIR__ . "/assets/languages/" . get_locale() . ".mo");
+				};
+
+				add_action("plugins_loaded", $loadTextDomain);
+
+				add_action("after_setup_theme", $loadTextDomain);
+
+				return true;
+			}
 		));
 
 	if (!$__i)

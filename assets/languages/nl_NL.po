@@ -1,0 +1,32 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Media\n"
+"POT-Creation-Date: 2013-06-22 19:11+0100\n"
+"PO-Revision-Date: 2013-06-22 19:12+0100\n"
+"Last-Translator: Paul van der Meijs <info@lowtone.nl>\n"
+"Language-Team: Lowtone <info@lowtone.nl>\n"
+"Language: Dutch\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.5\n"
+"X-Poedit-KeywordsList: __\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ../..\n"
+
+#: ../../types/handlers/typehandler.class.php:15
+msgid "Upload"
+msgstr "Uploaden"
+
+#: ../../types/handlers/typehandler.class.php:16
+msgid "Upload a new file"
+msgstr "Nieuw bestand uploaden"
+
+#: ../../types/handlers/typehandler.class.php:48
+msgid "Add a new file"
+msgstr "Nieuw bestand toevoegen"
+
+#: ../../types/handlers/typehandler.class.php:49
+msgid "Select how you want to add a new file:"
+msgstr "Selecteer hoe u een nieuw bestand toe wilt voegen:"
