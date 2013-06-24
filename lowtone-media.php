@@ -26,16 +26,8 @@ namespace lowtone\media {
 
 				// Load text domain
 				
-				$loadTextDomain = function() {
-					if (is_textdomain_loaded("lowtone_media"))
-						return;
-
+				if (!is_textdomain_loaded("lowtone_media"))
 					load_textdomain("lowtone_media", __DIR__ . "/assets/languages/" . get_locale() . ".mo");
-				};
-
-				add_action("plugins_loaded", $loadTextDomain);
-
-				add_action("after_setup_theme", $loadTextDomain);
 
 				return true;
 			}

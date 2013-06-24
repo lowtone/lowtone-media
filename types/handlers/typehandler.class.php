@@ -13,7 +13,7 @@ class TypeHandler extends Singleton {
 
 		$this->add(new Type(array(
 				Type::PROPERTY_TITLE => __("Upload", "lowtone_media"),
-				Type::PROPERTY_NEW_FILE_TEXT => __("Upload a new file"),
+				Type::PROPERTY_NEW_FILE_TEXT => __("Upload a new file.", "lowtone_media"),
 				Type::PROPERTY_SLUG => admin_url("media-new.php"),
 				Type::PROPERTY_IMAGE => LIB_URL . "/lowtone-media/assets/images/upload-icon.png",
 			)));

@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Media\n"
-"POT-Creation-Date: 2013-06-22 19:11+0100\n"
-"PO-Revision-Date: 2013-06-22 19:12+0100\n"
+"POT-Creation-Date: 2013-06-22 22:18+0100\n"
+"PO-Revision-Date: 2013-06-22 22:18+0100\n"
 "Last-Translator: Paul van der Meijs <info@lowtone.nl>\n"
 "Language-Team: Lowtone <info@lowtone.nl>\n"
 "Language: Dutch\n"
@@ -20,13 +20,13 @@ msgid "Upload"
 msgstr "Uploaden"
 
 #: ../../types/handlers/typehandler.class.php:16
-msgid "Upload a new file"
-msgstr "Nieuw bestand uploaden"
+msgid "Upload a new file."
+msgstr "Nieuw bestand uploaden."
 
-#: ../../types/handlers/typehandler.class.php:48
+#: ../../types/handlers/typehandler.class.php:52
 msgid "Add a new file"
 msgstr "Nieuw bestand toevoegen"
 
-#: ../../types/handlers/typehandler.class.php:49
+#: ../../types/handlers/typehandler.class.php:53
 msgid "Select how you want to add a new file:"
 msgstr "Selecteer hoe u een nieuw bestand toe wilt voegen:"
