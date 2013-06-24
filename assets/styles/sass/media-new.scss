@@ -1,5 +1,21 @@
 @charset "UTF-8";
 
+@mixin grayscale($grayscale: 1) {
+	@if 0 == $grayscale {
+		filter: none;
+		-webkit-filter: grayscale(0);
+	} @else {
+		filter: grayscale($grayscale*100%); /* Current draft standard */
+		-webkit-filter: grayscale($grayscale*100%); /* New WebKit */
+		-moz-filter: grayscale($grayscale*100%);
+		-ms-filter: grayscale($grayscale*100%); 
+		-o-filter: grayscale($grayscale*100%); /* Not yet supported in Gecko, Opera or IE */ 
+		filter: url(filters.svg#grayscale); /* Gecko */
+		filter: gray; /* IE */
+		-webkit-filter: grayscale(1); /* Old WebKit */
+	}
+}
+
 ul.lowtone.media.type.select {
 	background-color: #f9f9f9;
 	border: 1px solid #dfdfdf;
@@ -26,11 +42,17 @@ ul.lowtone.media.type.select {
 
 			&:hover {
 				color: #d54e21;
+
+				img {
+					@include grayscale(0);
+				}
 			}
 		}
 
 		img {
 			float: left;
+
+			@include grayscale(1);
 		}
 
 		h3, p {
