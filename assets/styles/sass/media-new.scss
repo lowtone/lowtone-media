@@ -44,7 +44,7 @@ ul.lowtone.media.type.select {
 				color: #d54e21;
 
 				img {
-					@include grayscale(0);
+					// @include grayscale(0);
 				}
 			}
 		}
@@ -52,7 +52,7 @@ ul.lowtone.media.type.select {
 		img {
 			float: left;
 
-			@include grayscale(1);
+			// @include grayscale(1);
 		}
 
 		h3, p {
